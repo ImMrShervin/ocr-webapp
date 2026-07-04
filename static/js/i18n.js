@@ -192,7 +192,7 @@ const I18N = {
     toast_copied: "복사됨", toast_no_text: "텍스트 없음", toast_error: "오류 발생",
   },
 };
-
+ 
 function applyI18n(lang){
   const dict = I18N[lang] || I18N.en;
   document.documentElement.lang = lang;
