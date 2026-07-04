@@ -21,5 +21,5 @@ sudo apt-get install -y -qq \
 
 echo "🐍 Installing Python dependencies..."
 pip install --quiet --no-input -r requirements.txt
-
+ 
 echo "✅ Done... Run with:  python3 app.py"
