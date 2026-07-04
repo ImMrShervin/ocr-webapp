@@ -66,7 +66,7 @@
   function showOverlay(show){
     $('#overlay').hidden = !show;
   }
-
+ 
   function showPreview(src){
     $('#preview').src = src;
     $('#previewWrap').hidden = false;
