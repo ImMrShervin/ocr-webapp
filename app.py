@@ -8,7 +8,7 @@ import pytesseract
 from langdetect import detect, DetectorFactory
 from deep_translator import GoogleTranslator
 from werkzeug.utils import secure_filename
-
+ 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 DetectorFactory.seed = 0 
