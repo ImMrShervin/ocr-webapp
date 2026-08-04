@@ -11,6 +11,8 @@ from werkzeug.utils import secure_filename
  
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
+
+
 DetectorFactory.seed = 0
 
 app = Flask(__name__)
