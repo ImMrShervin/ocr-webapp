@@ -11,7 +11,7 @@ from werkzeug.utils import secure_filename
  
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
-DetectorFactory.seed = 1
+DetectorFactory.seed = 0
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
