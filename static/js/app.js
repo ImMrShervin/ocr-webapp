@@ -2,6 +2,8 @@
   const $ = (s, r=document) => r.querySelector(s);
   const $$ = (s, r=document) => Array.from(r.querySelectorAll(s));
 
+
+  
   const initialLang = document.documentElement.getAttribute('data-ui-lang') || 'en';
   $('#uiLangSelect').value = initialLang;
   applyI18n(initialLang);
